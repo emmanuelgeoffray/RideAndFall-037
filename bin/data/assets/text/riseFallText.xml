@@ -1,0 +1,124 @@
+<ruffle>
+    <fallLine>A ruffle,</fallLine>
+	<fallLine>a reflection,</fallLine>
+	<fallLine>depends on direction.</fallLine>
+	<fallLine>Take a pass,</fallLine>
+	<fallLine>through this</fallLine>
+	<fallLine>strange grass,</fallLine>
+	<fallLine>Or home?</fallLine>
+	<fallLine>For the </fallLine>
+	<fallLine>creatures unknown.</fallLine>
+
+    <riseLine>A ruffle,</riseLine>
+	<riseLine>a reflection,</riseLine>
+	<riseLine>depends on direction.</riseLine>
+	<riseLine>Take a pass,</riseLine>
+	<riseLine>through this</riseLine>
+	<riseLine>strange grass,</riseLine>
+	<riseLine>Or home?</riseLine>
+	<riseLine>For the </riseLine>
+	<riseLine>creatures unknown.</riseLine>
+</ruffle>
+
+<birdNodeBegin>
+    <fallLine>A ruffle,</fallLine>
+	<fallLine>a reflection,</fallLine>
+	<fallLine>depends on direction.</fallLine>
+	<fallLine>Take a pass,</fallLine>
+	<fallLine>through this</fallLine>
+	<fallLine>strange grass,</fallLine>
+	<fallLine>Or home?</fallLine>
+	<fallLine>For the </fallLine>
+	<fallLine>creatures unknown.</fallLine>
+
+    <riseLine>A ruffle,</riseLine>
+	<riseLine>a reflection,</riseLine>
+	<riseLine>depends on direction.</riseLine>
+	<riseLine>Take a pass,</riseLine>
+	<riseLine>through this</riseLine>
+	<riseLine>strange grass,</riseLine>
+	<riseLine>Or home?</riseLine>
+	<riseLine>For the </riseLine>
+	<riseLine>creatures unknown.</riseLine>
+</birdNodeBegin>
+
+
+<sunMoonNode>
+    <riseLine>A bright beginning,</riseLine>
+    <riseLine>to an upwards sinking,</riseLine>
+    <riseLine>we lift our ascension,</riseLine>
+    <riseLine>in a vertical direction.</riseLine>
+    
+	<fallLine>A clear night,</fallLine>
+	<fallLine>submerged,</fallLine>
+	<fallLine>we sink,</fallLine>
+	<fallLine>in downwards flight.</fallLine>    
+</sunMoonNode>
+
+<plantNode>
+    <riseLine>A leafy welcome,</riseLine>
+    <riseLine>waves goodbye,</riseLine>
+    <riseLine>as we fall away.</riseLine>
+
+    <fallLine>A leafy welcome,</fallLine>
+    <fallLine>waves goodbye,</fallLine>
+    <fallLine>as we fall away.</fallLine>
+</plantNode>
+		
+<oilWaterNode>
+    <riseLine>Two groups as one.</riseLine>
+    <riseLine>But fight to be two</riseLine>
+    <riseLine>Their differences,</riseLine>
+    <riseLine>as subtle,</riseLine>
+    <riseLine>as two shades of blue.</riseLine>
+    <riseLine>We force them together,</riseLine>
+    <riseLine>and drive them apart,</riseLine>
+    <riseLine>but they are stuck in their ways,</riseLine>
+    <riseLine>as they struggle to part.</riseLine>
+
+    <fallLine>Two groups as one.</fallLine>
+    <fallLine>But fight to be two</fallLine>
+    <fallLine>Their differences,</fallLine>
+    <fallLine>as subtle,</fallLine>
+    <fallLine>as two shades of blue.</fallLine>
+    <fallLine>We force them together,</fallLine>
+    <fallLine>and drive them apart,</fallLine>
+    <fallLine>but they are stuck in their ways,</fallLine>
+    <fallLine>as they struggle to part.</fallLine>
+</oilWaterNode>
+
+<chargeNode>
+    <riseLine>A positive charge</riseLine>
+    <riseLine>seeks a negative source.</riseLine>
+    <riseLine>A complementary union,</riseLine>
+    <riseLine>nets a zero force.</riseLine>
+
+    <fallLine>A positive charge</fallLine>
+    <fallLine>seeks a negative source.</fallLine>
+    <fallLine>A complementary union,</fallLine>
+    <fallLine>nets a zero force.</fallLine>
+</chargeNode>
+
+<bushNode>
+    <riseLine>A bush, a beast?</riseLine>
+    <riseLine>For some a feast.</riseLine>
+    <riseLine>A feathered spore?</riseLine>
+    <riseLine>or a clever lure?</riseLine>
+
+    <fallLine>A bush, a beast?</fallLine>
+    <fallLine>For some a feast.</fallLine>
+    <fallLine>A feathered spore?</fallLine>
+    <fallLine>or a clever lure?</fallLine>
+</bushNode>
+
+<endNode>
+    <riseLine>A race to the stars,</riseLine>
+    <riseLine>or the darkest deep?</riseLine>
+    <riseLine>Our greatest heights,</riseLine>
+    <riseLine>or our deepest sleep?</riseLine>
+
+    <fallLine>The final league?</fallLine>
+    <fallLine>Or the fringes of space?</fallLine>
+    <fallLine>The end of slumber?</fallLine>
+    <fallLine>a new day awakes</fallLine>
+</endNode>

@@ -1,0 +1,546 @@
+<?xml version="1.0"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="RideAndFall-037" />
+		<Option makefile_is_custom="1" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="addons/;src/;build config/;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/$(PROJECT_NAME)_debug" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj/Debug/" />
+				<Option external_deps="../../../libs/openFrameworksCompiled/lib/linux64/libopenFrameworksDebug.a;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+			</Target>
+			<Target title="Release">
+				<Option output="bin/$(PROJECT_NAME)" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin" />
+				<Option object_output="obj/Release/" />
+				<Option external_deps="../../../libs/openFrameworksCompiled/lib/linux64/libopenFrameworks.a;" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option projectLinkerOptionsRelation="2" />
+			</Target>
+		</Build>
+		<Unit filename="config.make">
+			<Option virtualFolder="build config" />
+		</Unit>
+		<Unit filename="src/main.cpp">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/testApp.cpp">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Unit filename="src/testApp.h">
+			<Option virtualFolder="src/" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+		<Unit filename="src/animation/baseTrailParticle.h">
+			<Option virtualFolder="src/animation" />
+		</Unit>
+		<Unit filename="src/animation/advImageSequence.h">
+			<Option virtualFolder="src/animation" />
+		</Unit>
+		<Unit filename="src/animation/baseTrailParticle.cpp">
+			<Option virtualFolder="src/animation" />
+		</Unit>
+		<Unit filename="src/animation/basicParticle.cpp">
+			<Option virtualFolder="src/animation" />
+		</Unit>
+		<Unit filename="src/animation/seqManager.cpp">
+			<Option virtualFolder="src/animation" />
+		</Unit>
+		<Unit filename="src/animation/imageSequence.h">
+			<Option virtualFolder="src/animation" />
+		</Unit>
+		<Unit filename="src/animation/particle.cpp">
+			<Option virtualFolder="src/animation" />
+		</Unit>
+		<Unit filename="src/animation/basicParticle.h">
+			<Option virtualFolder="src/animation" />
+		</Unit>
+		<Unit filename="src/animation/advImageSequence.cpp">
+			<Option virtualFolder="src/animation" />
+		</Unit>
+		<Unit filename="src/animation/homeParticle.h">
+			<Option virtualFolder="src/animation" />
+		</Unit>
+		<Unit filename="src/animation/homeParticle.cpp">
+			<Option virtualFolder="src/animation" />
+		</Unit>
+		<Unit filename="src/animation/seqManager.h">
+			<Option virtualFolder="src/animation" />
+		</Unit>
+		<Unit filename="src/animation/particle.h">
+			<Option virtualFolder="src/animation" />
+		</Unit>
+		<Unit filename="src/animation/imageSequence.cpp">
+			<Option virtualFolder="src/animation" />
+		</Unit>
+		<Unit filename="src/camManager.h">
+			<Option virtualFolder="src" />
+		</Unit>
+		<Unit filename="src/camApp.cpp">
+			<Option virtualFolder="src" />
+		</Unit>
+		<Unit filename="src/elements/imageCrossFadeElement.cpp">
+			<Option virtualFolder="src/elements" />
+		</Unit>
+		<Unit filename="src/elements/text3DCharacter.cpp">
+			<Option virtualFolder="src/elements" />
+		</Unit>
+		<Unit filename="src/elements/trailGroupManager.h">
+			<Option virtualFolder="src/elements" />
+		</Unit>
+		<Unit filename="src/elements/textBlockTrackingElement.cpp">
+			<Option virtualFolder="src/elements" />
+		</Unit>
+		<Unit filename="src/elements/trailGroupManager.cpp">
+			<Option virtualFolder="src/elements" />
+		</Unit>
+		<Unit filename="src/elements/textBlockAttractElement.h">
+			<Option virtualFolder="src/elements" />
+		</Unit>
+		<Unit filename="src/elements/textBlockTrackingElement.h">
+			<Option virtualFolder="src/elements" />
+		</Unit>
+		<Unit filename="src/elements/textureTrailParticle.h">
+			<Option virtualFolder="src/elements" />
+		</Unit>
+		<Unit filename="src/elements/imageRectParticleElement.h">
+			<Option virtualFolder="src/elements" />
+		</Unit>
+		<Unit filename="src/elements/windElement.cpp">
+			<Option virtualFolder="src/elements" />
+		</Unit>
+		<Unit filename="src/elements/srcDstTrailParticle.cpp">
+			<Option virtualFolder="src/elements" />
+		</Unit>
+		<Unit filename="src/elements/rotateElement.cpp">
+			<Option virtualFolder="src/elements" />
+		</Unit>
+		<Unit filename="src/elements/textureTrailParticle.cpp">
+			<Option virtualFolder="src/elements" />
+		</Unit>
+		<Unit filename="src/elements/imageParticleElement.h">
+			<Option virtualFolder="src/elements" />
+		</Unit>
+		<Unit filename="src/elements/textBlockElement.cpp">
+			<Option virtualFolder="src/elements" />
+		</Unit>
+		<Unit filename="src/elements/text3DCharacter.h">
+			<Option virtualFolder="src/elements" />
+		</Unit>
+		<Unit filename="src/elements/seqManagerElement.h">
+			<Option virtualFolder="src/elements" />
+		</Unit>
+		<Unit filename="src/elements/textFlipElement.h">
+			<Option virtualFolder="src/elements" />
+		</Unit>
+		<Unit filename="src/elements/myPersonElement.h">
+			<Option virtualFolder="src/elements" />
+		</Unit>
+		<Unit filename="src/elements/imageParticleElement.cpp">
+			<Option virtualFolder="src/elements" />
+		</Unit>
+		<Unit filename="src/elements/rotateElement.h">
+			<Option virtualFolder="src/elements" />
+		</Unit>
+		<Unit filename="src/elements/imageElement.h">
+			<Option virtualFolder="src/elements" />
+		</Unit>
+		<Unit filename="src/elements/srcDstTrailParticle.h">
+			<Option virtualFolder="src/elements" />
+		</Unit>
+		<Unit filename="src/elements/imageCrossFadeElement.h">
+			<Option virtualFolder="src/elements" />
+		</Unit>
+		<Unit filename="src/elements/windElement.h">
+			<Option virtualFolder="src/elements" />
+		</Unit>
+		<Unit filename="src/elements/actionElement.h">
+			<Option virtualFolder="src/elements" />
+		</Unit>
+		<Unit filename="src/elements/imageRectParticleElement.cpp">
+			<Option virtualFolder="src/elements" />
+		</Unit>
+		<Unit filename="src/elements/textBlockAttractElement.cpp">
+			<Option virtualFolder="src/elements" />
+		</Unit>
+		<Unit filename="src/elements/textBlockElement.h">
+			<Option virtualFolder="src/elements" />
+		</Unit>
+		<Unit filename="src/elements/seqManagerElement.cpp">
+			<Option virtualFolder="src/elements" />
+		</Unit>
+		<Unit filename="src/elements/baseElement.cpp">
+			<Option virtualFolder="src/elements" />
+		</Unit>
+		<Unit filename="src/elements/myPersonElement.cpp">
+			<Option virtualFolder="src/elements" />
+		</Unit>
+		<Unit filename="src/elements/textFlipElement.cpp">
+			<Option virtualFolder="src/elements" />
+		</Unit>
+		<Unit filename="src/elements/cloudElement.h">
+			<Option virtualFolder="src/elements" />
+		</Unit>
+		<Unit filename="src/elements/cloudElement.cpp">
+			<Option virtualFolder="src/elements" />
+		</Unit>
+		<Unit filename="src/elements/baseElement.h">
+			<Option virtualFolder="src/elements" />
+		</Unit>
+		<Unit filename="src/elements/imageReferenceElement.h">
+			<Option virtualFolder="src/elements" />
+		</Unit>
+		<Unit filename="src/elements/imageReferenceElement.cpp">
+			<Option virtualFolder="src/elements" />
+		</Unit>
+		<Unit filename="src/elements/imageElement.cpp">
+			<Option virtualFolder="src/elements" />
+		</Unit>
+		<Unit filename="src/elements/actionElement.cpp">
+			<Option virtualFolder="src/elements" />
+		</Unit>
+		<Unit filename="src/_projectGlobals.h">
+			<Option virtualFolder="src" />
+		</Unit>
+		<Unit filename="src/3dCam/ofx3DWorld.cpp">
+			<Option virtualFolder="src/3dCam" />
+		</Unit>
+		<Unit filename="src/3dCam/ofx3DWorld.h">
+			<Option virtualFolder="src/3dCam" />
+		</Unit>
+		<Unit filename="src/interface/splashScreen.cpp">
+			<Option virtualFolder="src/interface" />
+		</Unit>
+		<Unit filename="src/interface/splashScreen.h">
+			<Option virtualFolder="src/interface" />
+		</Unit>
+		<Unit filename="src/nodes/howToNode/howToNode.h">
+			<Option virtualFolder="src/nodes/howToNode" />
+		</Unit>
+		<Unit filename="src/nodes/howToNode/howToNode.cpp">
+			<Option virtualFolder="src/nodes/howToNode" />
+		</Unit>
+		<Unit filename="src/nodes/fishBirdNode/birdFishParticle.h">
+			<Option virtualFolder="src/nodes/fishBirdNode" />
+		</Unit>
+		<Unit filename="src/nodes/fishBirdNode/untitled.cpp">
+			<Option virtualFolder="src/nodes/fishBirdNode" />
+		</Unit>
+		<Unit filename="src/nodes/fishBirdNode/magnetElement.cpp">
+			<Option virtualFolder="src/nodes/fishBirdNode" />
+		</Unit>
+		<Unit filename="src/nodes/fishBirdNode/fishBirdManager.h">
+			<Option virtualFolder="src/nodes/fishBirdNode" />
+		</Unit>
+		<Unit filename="src/nodes/fishBirdNode/fishBirdNode.cpp">
+			<Option virtualFolder="src/nodes/fishBirdNode" />
+		</Unit>
+		<Unit filename="src/nodes/fishBirdNode/magnetElement.h">
+			<Option virtualFolder="src/nodes/fishBirdNode" />
+		</Unit>
+		<Unit filename="src/nodes/fishBirdNode/fishBirdManager.cpp">
+			<Option virtualFolder="src/nodes/fishBirdNode" />
+		</Unit>
+		<Unit filename="src/nodes/fishBirdNode/untitled.h">
+			<Option virtualFolder="src/nodes/fishBirdNode" />
+		</Unit>
+		<Unit filename="src/nodes/fishBirdNode/birdFishParticle.cpp">
+			<Option virtualFolder="src/nodes/fishBirdNode" />
+		</Unit>
+		<Unit filename="src/nodes/fishBirdNode/fishBirdNode.h">
+			<Option virtualFolder="src/nodes/fishBirdNode" />
+		</Unit>
+		<Unit filename="src/nodes/utilNodes/textStackFromXml.cpp">
+			<Option virtualFolder="src/nodes/utilNodes" />
+		</Unit>
+		<Unit filename="src/nodes/utilNodes/stackText.cpp">
+			<Option virtualFolder="src/nodes/utilNodes" />
+		</Unit>
+		<Unit filename="src/nodes/utilNodes/textStackUtils.h">
+			<Option virtualFolder="src/nodes/utilNodes" />
+		</Unit>
+		<Unit filename="src/nodes/utilNodes/textStackFromXml.h">
+			<Option virtualFolder="src/nodes/utilNodes" />
+		</Unit>
+		<Unit filename="src/nodes/utilNodes/textArmElement.h">
+			<Option virtualFolder="src/nodes/utilNodes" />
+		</Unit>
+		<Unit filename="src/nodes/utilNodes/stackText.h">
+			<Option virtualFolder="src/nodes/utilNodes" />
+		</Unit>
+		<Unit filename="src/nodes/utilNodes/textArmElement.cpp">
+			<Option virtualFolder="src/nodes/utilNodes" />
+		</Unit>
+		<Unit filename="src/nodes/titleNode/titleNode.h">
+			<Option virtualFolder="src/nodes/titleNode" />
+		</Unit>
+		<Unit filename="src/nodes/titleNode/titleNode.cpp">
+			<Option virtualFolder="src/nodes/titleNode" />
+		</Unit>
+		<Unit filename="src/nodes/hairyNode/hairyBeast.h">
+			<Option virtualFolder="src/nodes/hairyNode" />
+		</Unit>
+		<Unit filename="src/nodes/hairyNode/hairyStem.cpp">
+			<Option virtualFolder="src/nodes/hairyNode" />
+		</Unit>
+		<Unit filename="src/nodes/hairyNode/hairyBeast.cpp">
+			<Option virtualFolder="src/nodes/hairyNode" />
+		</Unit>
+		<Unit filename="src/nodes/hairyNode/hairyNode.h">
+			<Option virtualFolder="src/nodes/hairyNode" />
+		</Unit>
+		<Unit filename="src/nodes/hairyNode/hairyNode.cpp">
+			<Option virtualFolder="src/nodes/hairyNode" />
+		</Unit>
+		<Unit filename="src/nodes/hairyNode/hairyStem.h">
+			<Option virtualFolder="src/nodes/hairyNode" />
+		</Unit>
+		<Unit filename="src/nodes/chargeNode/chargeAttractRod.h">
+			<Option virtualFolder="src/nodes/chargeNode" />
+		</Unit>
+		<Unit filename="src/nodes/chargeNode/chargeNode.h">
+			<Option virtualFolder="src/nodes/chargeNode" />
+		</Unit>
+		<Unit filename="src/nodes/chargeNode/chargeAttractRod.cpp">
+			<Option virtualFolder="src/nodes/chargeNode" />
+		</Unit>
+		<Unit filename="src/nodes/chargeNode/chargeNode.cpp">
+			<Option virtualFolder="src/nodes/chargeNode" />
+		</Unit>
+		<Unit filename="src/nodes/timeNode/timeNode.cpp">
+			<Option virtualFolder="src/nodes/timeNode" />
+		</Unit>
+		<Unit filename="src/nodes/timeNode/timeNode.h">
+			<Option virtualFolder="src/nodes/timeNode" />
+		</Unit>
+		<Unit filename="src/nodes/endNode/endNode.cpp">
+			<Option virtualFolder="src/nodes/endNode" />
+		</Unit>
+		<Unit filename="src/nodes/endNode/endNode.h">
+			<Option virtualFolder="src/nodes/endNode" />
+		</Unit>
+		<Unit filename="src/nodes/handManagerNode/handManagerNode.h">
+			<Option virtualFolder="src/nodes/handManagerNode" />
+		</Unit>
+		<Unit filename="src/nodes/handManagerNode/handTextManager.cpp">
+			<Option virtualFolder="src/nodes/handManagerNode" />
+		</Unit>
+		<Unit filename="src/nodes/handManagerNode/handTextManager.h">
+			<Option virtualFolder="src/nodes/handManagerNode" />
+		</Unit>
+		<Unit filename="src/nodes/handManagerNode/handText.cpp">
+			<Option virtualFolder="src/nodes/handManagerNode" />
+		</Unit>
+		<Unit filename="src/nodes/handManagerNode/handManagerNode.cpp">
+			<Option virtualFolder="src/nodes/handManagerNode" />
+		</Unit>
+		<Unit filename="src/nodes/handManagerNode/handText.h">
+			<Option virtualFolder="src/nodes/handManagerNode" />
+		</Unit>
+		<Unit filename="src/nodes/sunMoonNode/sunMoonNode.cpp">
+			<Option virtualFolder="src/nodes/sunMoonNode" />
+		</Unit>
+		<Unit filename="src/nodes/sunMoonNode/sunMoonNode.h">
+			<Option virtualFolder="src/nodes/sunMoonNode" />
+		</Unit>
+		<Unit filename="src/nodes/scaleField/scaleFieldNode.h">
+			<Option virtualFolder="src/nodes/scaleField" />
+		</Unit>
+		<Unit filename="src/nodes/scaleField/scaleFieldNode.cpp">
+			<Option virtualFolder="src/nodes/scaleField" />
+		</Unit>
+		<Unit filename="src/nodes/baseNode.h">
+			<Option virtualFolder="src/nodes" />
+		</Unit>
+		<Unit filename="src/nodes/deepBirdFishNode/deepFishBirdManager.cpp">
+			<Option virtualFolder="src/nodes/deepBirdFishNode" />
+		</Unit>
+		<Unit filename="src/nodes/deepBirdFishNode/nestSubNode.cpp">
+			<Option virtualFolder="src/nodes/deepBirdFishNode" />
+		</Unit>
+		<Unit filename="src/nodes/deepBirdFishNode/deepFishBirdManager.h">
+			<Option virtualFolder="src/nodes/deepBirdFishNode" />
+		</Unit>
+		<Unit filename="src/nodes/deepBirdFishNode/nestSubNode.h">
+			<Option virtualFolder="src/nodes/deepBirdFishNode" />
+		</Unit>
+		<Unit filename="src/nodes/deepBirdFishNode/deepBirdFishNode.h">
+			<Option virtualFolder="src/nodes/deepBirdFishNode" />
+		</Unit>
+		<Unit filename="src/nodes/deepBirdFishNode/deepBirdFishNode.cpp">
+			<Option virtualFolder="src/nodes/deepBirdFishNode" />
+		</Unit>
+		<Unit filename="src/nodes/oilWaterNode/oilWaterNode.h">
+			<Option virtualFolder="src/nodes/oilWaterNode" />
+		</Unit>
+		<Unit filename="src/nodes/oilWaterNode/oilWaterNode.cpp">
+			<Option virtualFolder="src/nodes/oilWaterNode" />
+		</Unit>
+		<Unit filename="src/nodes/weatherNode/rainParticleElement.h">
+			<Option virtualFolder="src/nodes/weatherNode" />
+		</Unit>
+		<Unit filename="src/nodes/weatherNode/rainParticleElement.cpp">
+			<Option virtualFolder="src/nodes/weatherNode" />
+		</Unit>
+		<Unit filename="src/nodes/weatherNode/weatherNode.h">
+			<Option virtualFolder="src/nodes/weatherNode" />
+		</Unit>
+		<Unit filename="src/nodes/weatherNode/weatherNode.cpp">
+			<Option virtualFolder="src/nodes/weatherNode" />
+		</Unit>
+		<Unit filename="src/nodes/weatherNode/cloudElement.h">
+			<Option virtualFolder="src/nodes/weatherNode" />
+		</Unit>
+		<Unit filename="src/nodes/weatherNode/cloudElement.cpp">
+			<Option virtualFolder="src/nodes/weatherNode" />
+		</Unit>
+		<Unit filename="src/nodes/growthNode/leafElement.cpp">
+			<Option virtualFolder="src/nodes/growthNode" />
+		</Unit>
+		<Unit filename="src/nodes/growthNode/leafElement.h">
+			<Option virtualFolder="src/nodes/growthNode" />
+		</Unit>
+		<Unit filename="src/nodes/growthNode/plantSubNode.cpp">
+			<Option virtualFolder="src/nodes/growthNode" />
+		</Unit>
+		<Unit filename="src/nodes/growthNode/plantSignPost.h">
+			<Option virtualFolder="src/nodes/growthNode" />
+		</Unit>
+		<Unit filename="src/nodes/growthNode/plantNode.h">
+			<Option virtualFolder="src/nodes/growthNode" />
+		</Unit>
+		<Unit filename="src/nodes/growthNode/angleLine.cpp">
+			<Option virtualFolder="src/nodes/growthNode" />
+		</Unit>
+		<Unit filename="src/nodes/growthNode/angleLine.h">
+			<Option virtualFolder="src/nodes/growthNode" />
+		</Unit>
+		<Unit filename="src/nodes/growthNode/plantSignPost.cpp">
+			<Option virtualFolder="src/nodes/growthNode" />
+		</Unit>
+		<Unit filename="src/nodes/growthNode/branch.cpp">
+			<Option virtualFolder="src/nodes/growthNode" />
+		</Unit>
+		<Unit filename="src/nodes/growthNode/branch.h">
+			<Option virtualFolder="src/nodes/growthNode" />
+		</Unit>
+		<Unit filename="src/nodes/growthNode/plantSubNode.h">
+			<Option virtualFolder="src/nodes/growthNode" />
+		</Unit>
+		<Unit filename="src/nodes/growthNode/plantNode.cpp">
+			<Option virtualFolder="src/nodes/growthNode" />
+		</Unit>
+		<Unit filename="src/nodes/baseNode.cpp">
+			<Option virtualFolder="src/nodes" />
+		</Unit>
+		<Unit filename="src/camApp.h">
+			<Option virtualFolder="src" />
+		</Unit>
+		<Unit filename="src/sound/backgroundSoundManager.cpp">
+			<Option virtualFolder="src/sound" />
+		</Unit>
+		<Unit filename="src/sound/easySoundPlayer.cpp">
+			<Option virtualFolder="src/sound" />
+		</Unit>
+		<Unit filename="src/sound/backgroundSoundManager.h">
+			<Option virtualFolder="src/sound" />
+		</Unit>
+		<Unit filename="src/sound/easySoundPlayer.h">
+			<Option virtualFolder="src/sound" />
+		</Unit>
+		<Unit filename="src/camManager.cpp">
+			<Option virtualFolder="src" />
+		</Unit>
+		<Unit filename="src/_projectNodes.h">
+			<Option virtualFolder="src" />
+		</Unit>
+		<Unit filename="src/tracking/ofxFern.h">
+			<Option virtualFolder="src/tracking" />
+		</Unit>
+		<Unit filename="src/tracking/magManager.h">
+			<Option virtualFolder="src/tracking" />
+		</Unit>
+		<Unit filename="src/tracking/ofxFern.cpp">
+			<Option virtualFolder="src/tracking" />
+		</Unit>
+		<Unit filename="src/tracking/magazine.h">
+			<Option virtualFolder="src/tracking" />
+		</Unit>
+		<Unit filename="src/tracking/magManager.cpp">
+			<Option virtualFolder="src/tracking" />
+		</Unit>
+		<Unit filename="src/utils/ofxFutureUtils.h">
+			<Option virtualFolder="src/utils" />
+		</Unit>
+		<Unit filename="src/utils/ofxChipmunk/ofxChipmunkBaseShape.h">
+			<Option virtualFolder="src/utils/ofxChipmunk" />
+		</Unit>
+		<Unit filename="src/utils/ofxChipmunk/ofxChipmunkPoly.h">
+			<Option virtualFolder="src/utils/ofxChipmunk" />
+		</Unit>
+		<Unit filename="src/utils/ofxChipmunk/ofxChipmunkLine.h">
+			<Option virtualFolder="src/utils/ofxChipmunk" />
+		</Unit>
+		<Unit filename="src/utils/ofxChipmunk/ofxChipmunkCircle.h">
+			<Option virtualFolder="src/utils/ofxChipmunk" />
+		</Unit>
+		<Unit filename="src/utils/ofxChipmunk/triangle/assert.hpp">
+			<Option virtualFolder="src/utils/ofxChipmunk/triangle" />
+		</Unit>
+		<Unit filename="src/utils/ofxChipmunk/triangle/triangle.h">
+			<Option virtualFolder="src/utils/ofxChipmunk/triangle" />
+		</Unit>
+		<Unit filename="src/utils/ofxChipmunk/triangle/del_impl.cpp">
+			<Option virtualFolder="src/utils/ofxChipmunk/triangle" />
+		</Unit>
+		<Unit filename="src/utils/ofxChipmunk/triangle/dpoint.hpp">
+			<Option virtualFolder="src/utils/ofxChipmunk/triangle" />
+		</Unit>
+		<Unit filename="src/utils/ofxChipmunk/triangle/del_interface.hpp">
+			<Option virtualFolder="src/utils/ofxChipmunk/triangle" />
+		</Unit>
+		<Unit filename="src/utils/ofxChipmunk/triangle/triangle_impl.hpp">
+			<Option virtualFolder="src/utils/ofxChipmunk/triangle" />
+		</Unit>
+		<Unit filename="src/utils/ofxChipmunk/ofxChipmunkRect.h">
+			<Option virtualFolder="src/utils/ofxChipmunk" />
+		</Unit>
+		<Unit filename="src/utils/ofxChipmunk/ofxChipmunk.h">
+			<Option virtualFolder="src/utils/ofxChipmunk" />
+		</Unit>
+		<Unit filename="src/utils/imageSequenceLoader.cpp">
+			<Option virtualFolder="src/utils" />
+		</Unit>
+		<Unit filename="src/utils/imageSequenceLoader.h">
+			<Option virtualFolder="src/utils" />
+		</Unit>
+		<Unit filename="src/utils/colorLoader.cpp">
+			<Option virtualFolder="src/utils" />
+		</Unit>
+		<Unit filename="src/utils/colorLoader.h">
+			<Option virtualFolder="src/utils" />
+		</Unit>
+		<Unit filename="src/utils/typeLoader.cpp">
+			<Option virtualFolder="src/utils" />
+		</Unit>
+		<Unit filename="src/utils/simpleSceneGraph.h">
+			<Option virtualFolder="src/utils" />
+		</Unit>
+		<Unit filename="src/utils/typeLoader.h">
+			<Option virtualFolder="src/utils" />
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
